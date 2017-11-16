@@ -5,6 +5,7 @@ const StyledRightHeaderWidget = styled.div`
   background: ${red};
 
   @media (orientation: portrait) {
+    display: none;
   }
 
   @media (orientation: landscape) {
