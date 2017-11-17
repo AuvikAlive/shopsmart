@@ -1,8 +1,7 @@
 import styled from 'styled-components'
-import { red } from '../../theme'
 
 const StyledRightHeaderWidget = styled.div`
-  background: ${red};
+  background: ${props => props.theme.red};
 
   @media (orientation: portrait) {
     display: none;

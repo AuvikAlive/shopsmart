@@ -1,1 +1,5 @@
-export const red = '#ec1f27'
+const theme = {
+  red: '#ec1f27'
+}
+
+export default theme
