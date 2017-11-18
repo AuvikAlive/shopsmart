@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 const StyledHeaderSection = styled.div`
-  width: 100vw;
+  width: 100%;
   position: relative;
 
   @media (orientation: portrait) {
     background: ${props => props.theme.red};
-    height: 40vw;
+    height: 200vw;
   }
 
   @media (orientation: landscape) {

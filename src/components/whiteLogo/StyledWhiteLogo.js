@@ -9,9 +9,9 @@ const StyledWhiteLogo = styled.div`
   position: absolute;
 
   @media (orientation: portrait) {
-    width: 80%;
-    height: 100%;
-    top: 0;
+    width: 80vw;
+    height: 17.86vw;
+    top: 2.5vw;
     right: 0;
   }
 

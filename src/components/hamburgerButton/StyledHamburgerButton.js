@@ -21,8 +21,7 @@ const StyledHamburgerButton = styled.button`
     height: 20vw;
     position: absolute;
     left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
   }
 
   @media (orientation: landscape) {
