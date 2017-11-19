@@ -6,6 +6,7 @@ import store from '../../store/store'
 import theme from '../../theme'
 import HeaderSection from '../headerSection/HeaderSection'
 import CarouselSection from '../carouselSection/CarouselSection'
+import UpgradeAppSection from '../upgradeAppSection/UpgradeAppSection'
 
 const App = () => (
   <Provider store={store}>
@@ -14,6 +15,7 @@ const App = () => (
         <div>
           <HeaderSection />
           <CarouselSection />
+          <UpgradeAppSection />
         </div>
       </ThemeProvider>
     </Router>
