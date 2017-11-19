@@ -9,7 +9,7 @@ const Index = styled.div`
 
   @media (orientation: portrait) {
     left: 50%;
-    transform: translate3d(-50%, -35%, 0);
+    transform: translate3d(-50%, -30%, 0);
     font-size: 12vw;
   }
 
