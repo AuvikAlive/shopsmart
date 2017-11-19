@@ -5,6 +5,7 @@ import RightHeaderWidget from '../rightHeaderWidget/RightHeaderWidget'
 import HamburgerButton from '../hamburgerButton/HamburgerButtonContainer'
 import WhiteLogo from '../whiteLogo/WhiteLogo'
 import MiddleHeaderWidget from '../middleHeaderWidget/MiddleHeaderWidget'
+import HeaderTextWidget from '../headerTextWidget/HeaderTextWidget'
 
 const HeaderSection = () => (
   <StyledHeaderSection>
@@ -13,6 +14,7 @@ const HeaderSection = () => (
     <HamburgerButton />
     <WhiteLogo />
     <MiddleHeaderWidget />
+    <HeaderTextWidget />
   </StyledHeaderSection>
 )
 
