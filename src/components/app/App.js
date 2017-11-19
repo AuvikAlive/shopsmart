@@ -9,6 +9,7 @@ import CarouselSection from '../carouselSection/CarouselSection'
 import UpgradeAppSection from '../upgradeAppSection/UpgradeAppSection'
 import HowItWorksSection from '../howItWorksSection/HowItWorksSection'
 import TestimonialsSection from '../testimonialsSection/TestimonialsSection'
+import GetStartedSection from '../getStartedSection/GetStartedSection'
 
 const App = () => (
   <Provider store={store}>
@@ -20,6 +21,7 @@ const App = () => (
           <UpgradeAppSection />
           <HowItWorksSection />
           <TestimonialsSection />
+          <GetStartedSection />
         </div>
       </ThemeProvider>
     </Router>
