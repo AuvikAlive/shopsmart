@@ -6,7 +6,7 @@ const StyledHeaderSection = styled.div`
 
   @media (orientation: portrait) {
     background: ${props => props.theme.red};
-    height: 200vw;
+    height: 225vw;
   }
 
   @media (orientation: landscape) {

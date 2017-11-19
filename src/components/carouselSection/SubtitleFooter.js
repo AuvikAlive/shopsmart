@@ -1,15 +1,15 @@
 import styled from 'styled-components'
 
-const SubtitleText = styled.p`
+const SubtitleFooter = styled.div`
+  text-align: center;
+  color: ${props => props.theme.gray};
+
   @media (orientation: portrait) {
     font-size: 4vw;
-    margin-bottom: 8vw;
   }
 
   @media (orientation: landscape) {
     font-size: 1vw;
-    margin-bottom: 2vw;
   }
 `
-
-export default SubtitleText
+export default SubtitleFooter
